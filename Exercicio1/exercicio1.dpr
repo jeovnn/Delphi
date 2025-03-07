@@ -4,19 +4,20 @@ uses
   System.SysUtils;
 
 var
-
-nome: string;
-idade: Real;
+a,b,c: real;
 
 begin
 
-write('nome do usuario');
-ReadLn(nome);
+write('insira o primeiro valor');
+ReadLn(a);
 
-Write('idade');
-Readln(idade);
+write('insira o segundo valor');
+readln(b);
 
-Write('ola', nome, 'atualmente voce possui', idade, 'anos');
-Readln;
+write('insira o terceiro valor');
+readln(c);
+
+write('a media desses valores é ', (a+b+c)/3:0:2);
+readln;
 
 end.
