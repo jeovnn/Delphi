@@ -1,4 +1,4 @@
-unit Unit1;
+ï»¿unit Unit1;
 
 interface
 
@@ -49,7 +49,7 @@ StringGridUsuarios.Cells[1, 0] := 'Nome';
 StringGridUsuarios.Cells[2, 0] := 'Email';
 StringGridUsuarios.Cells[3, 0] := 'Telefone';
 StringGridUsuarios.Cells[4, 0] := 'Aniversario';
-StringGridUsuarios.Cells[5, 0] := 'Tipo de usuário';
+StringGridUsuarios.Cells[5, 0] := 'Tipo de usuï¿½rio';
 end;
 
 procedure TCadastrar.SalvarClick(Sender: TObject);
@@ -59,7 +59,7 @@ begin
   Inc(FCodigoUsuario);
 
   StringGridUsuarios.RowCount := StringGridUsuarios.RowCount + 1;
-  Row := 1;
+  Row := FCodigoUsuario;
 
   StringGridUsuarios.Cells[0, Row] := IntToStr(FCodigoUsuario);
   StringGridUsuarios.Cells[1, Row] := Usuario.Text;
