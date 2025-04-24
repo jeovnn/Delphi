@@ -20,7 +20,6 @@ object Form1: TForm1
     Align = alTop
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitWidth = 837
     DesignSize = (
       929
       97)
@@ -36,9 +35,7 @@ object Form1: TForm1
       Align = alTop
       Alignment = taCenter
       Caption = 'Contador'
-      ExplicitLeft = 116
-      ExplicitTop = 79
-      ExplicitWidth = 637
+      ExplicitWidth = 50
     end
     object Pesquisa: TEdit
       AlignWithMargins = True
@@ -59,7 +56,6 @@ object Form1: TForm1
       TabOrder = 0
       TextHint = 'Digite o texto'
       OnKeyDown = PesquisaKeyDown
-      ExplicitWidth = 465
     end
   end
   object PainelGlobal: TPanel
@@ -69,8 +65,5 @@ object Form1: TForm1
     Height = 613
     Align = alClient
     TabOrder = 1
-    ExplicitLeft = 24
-    ExplicitTop = 41
-    ExplicitWidth = 844
   end
 end
