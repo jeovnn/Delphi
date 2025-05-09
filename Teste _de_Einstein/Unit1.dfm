@@ -91,7 +91,7 @@ object Form1: TForm1
         'Cl'#225'udia'
         'Rebeca'
         'Jennifer'
-        'L'#237'gia')
+        'Ligia')
     end
     object ComboBox3: TComboBox
       Left = 16
@@ -100,7 +100,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 2
+      OnChange = ComboBox3Change
       Items.Strings = (
+        ''
         'sapatilha'
         'bota'
         't'#234'nis'
@@ -114,7 +116,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 3
+      OnChange = ComboBox4Change
       Items.Strings = (
+        ''
         '34'
         '35'
         '36'
@@ -128,7 +132,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 4
+      OnChange = ComboBox5Change
       Items.Strings = (
+        ''
         '20'
         '23'
         '25'
@@ -142,7 +148,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 5
+      OnChange = ComboBox6Change
       Items.Strings = (
+        ''
         'contadora'
         'nutricionista'
         'enfermeira'
@@ -180,13 +188,14 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 1
+      OnChange = ComboBox8Change
       Items.Strings = (
         ''
         'Denise'
         'Cl'#225'udia'
         'Rebeca'
         'Jennifer'
-        'L'#237'gia')
+        'Ligia')
     end
     object ComboBox9: TComboBox
       Left = 24
@@ -195,7 +204,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 2
+      OnChange = ComboBox9Change
       Items.Strings = (
+        ''
         'sapatilha'
         'bota'
         't'#234'nis'
@@ -209,7 +220,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 3
+      OnChange = ComboBox10Change
       Items.Strings = (
+        ''
         '34'
         '35'
         '36'
@@ -223,7 +236,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 4
+      OnChange = ComboBox11Change
       Items.Strings = (
+        ''
         '20'
         '23'
         '25'
@@ -237,7 +252,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 5
+      OnChange = ComboBox12Change
       Items.Strings = (
+        ''
         'contadora'
         'nutricionista'
         'enfermeira'
@@ -275,13 +292,14 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 1
+      OnChange = ComboBox14Change
       Items.Strings = (
         ''
         'Denise'
         'Cl'#225'udia'
         'Rebeca'
         'Jennifer'
-        'L'#237'gia')
+        'Ligia')
     end
     object ComboBox15: TComboBox
       Left = 24
@@ -290,7 +308,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 2
+      OnChange = ComboBox15Change
       Items.Strings = (
+        ''
         'sapatilha'
         'bota'
         't'#234'nis'
@@ -304,7 +324,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 3
+      OnChange = ComboBox16Change
       Items.Strings = (
+        ''
         '34'
         '35'
         '36'
@@ -320,6 +342,7 @@ object Form1: TForm1
       TabOrder = 4
       OnChange = ComboBox17Change
       Items.Strings = (
+        ''
         '20'
         '23'
         '25'
@@ -333,7 +356,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 5
+      OnChange = ComboBox18Change
       Items.Strings = (
+        ''
         'contadora'
         'nutricionista'
         'enfermeira'
@@ -371,13 +396,14 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 1
+      OnChange = ComboBox20Change
       Items.Strings = (
         ''
         'Denise'
         'Cl'#225'udia'
         'Rebeca'
         'Jennifer'
-        'L'#237'gia')
+        'Ligia')
     end
     object ComboBox21: TComboBox
       Left = 16
@@ -386,7 +412,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 2
+      OnChange = ComboBox21Change
       Items.Strings = (
+        ''
         'sapatilha'
         'bota'
         't'#234'nis'
@@ -400,7 +428,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 3
+      OnChange = ComboBox22Change
       Items.Strings = (
+        ''
         '34'
         '35'
         '36'
@@ -414,7 +444,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 4
+      OnChange = ComboBox23Change
       Items.Strings = (
+        ''
         '20'
         '23'
         '25'
@@ -428,7 +460,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 5
+      OnChange = ComboBox24Change
       Items.Strings = (
+        ''
         'contadora'
         'nutricionista'
         'enfermeira'
@@ -466,13 +500,14 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 1
+      OnChange = ComboBox26Change
       Items.Strings = (
         ''
         'Denise'
         'Cl'#225'udia'
         'Rebeca'
         'Jennifer'
-        'L'#237'gia')
+        'Ligia')
     end
     object ComboBox27: TComboBox
       Left = 24
@@ -481,7 +516,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 2
+      OnChange = ComboBox27Change
       Items.Strings = (
+        ''
         'sapatilha'
         'bota'
         't'#234'nis'
@@ -495,7 +532,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 3
+      OnChange = ComboBox28Change
       Items.Strings = (
+        ''
         '34'
         '35'
         '36'
@@ -509,7 +548,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 4
+      OnChange = ComboBox29Change
       Items.Strings = (
+        ''
         '20'
         '23'
         '25'
@@ -523,7 +564,9 @@ object Form1: TForm1
       Height = 23
       Style = csDropDownList
       TabOrder = 5
+      OnChange = ComboBox30Change
       Items.Strings = (
+        ''
         'contadora'
         'nutricionista'
         'enfermeira'
