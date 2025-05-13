@@ -70,6 +70,26 @@ type
     Label24: TLabel;
     Label25: TLabel;
     Label26: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label29: TLabel;
+    Label30: TLabel;
+    Label31: TLabel;
+    Label32: TLabel;
+    Label33: TLabel;
+    Label34: TLabel;
+    Label35: TLabel;
+    Label36: TLabel;
+    Label37: TLabel;
+    Label38: TLabel;
+    Label39: TLabel;
+    Label40: TLabel;
+    Label41: TLabel;
+    Label42: TLabel;
+    Label43: TLabel;
+    Label44: TLabel;
+    Label45: TLabel;
+    Label46: TLabel;
     procedure ComboBox1Change(Sender: TObject);
     procedure ComboBox7Change(Sender: TObject);
     procedure ComboBox13Change(Sender: TObject);
@@ -100,6 +120,7 @@ type
     procedure ComboBox22Change(Sender: TObject);
     procedure ComboBox28Change(Sender: TObject);
     procedure ComboBox30Change(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
 
   private
     procedure AtualizarLabel17Riscada;
@@ -118,6 +139,7 @@ type
     procedure VerificarJenniferAlgumLugar23anosELigia;
     procedure VerificarEnfermeiraEntreSapatilhaEPsiquiatra;
     procedure Verificar25AnosEntreCalca35eTenis;
+    procedure AtualizarCheck;
 
   public
     { Public declarations }
@@ -129,6 +151,109 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.AtualizarCheck;
+begin
+  if fsStrikeOut in Label7.Font.Style then
+    Label27.Visible := True
+  else
+    Label27.Visible := False;
+
+  if fsStrikeOut in Label8.Font.Style then
+    Label28.Visible := True
+  else
+    Label28.Visible := False;
+
+  if fsStrikeOut in Label9.Font.Style then
+    Label29.Visible := True
+  else
+    Label29.Visible := False;
+
+  if fsStrikeOut in Label10.Font.Style then
+    Label30.Visible := True
+  else
+    Label30.Visible := False;
+
+  if fsStrikeOut in Label11.Font.Style then
+    Label31.Visible := True
+  else
+    Label31.Visible := False;
+
+  if fsStrikeOut in Label12.Font.Style then
+    Label32.Visible := True
+  else
+    Label32.Visible := False;
+
+  if fsStrikeOut in Label13.Font.Style then
+    Label33.Visible := True
+  else
+    Label33.Visible := False;
+
+  if fsStrikeOut in Label14.Font.Style then
+    Label34.Visible := True
+  else
+    Label34.Visible := False;
+
+  if fsStrikeOut in Label15.Font.Style then
+    Label35.Visible := True
+  else
+    Label35.Visible := False;
+
+  if fsStrikeOut in Label16.Font.Style then
+    Label36.Visible := True
+  else
+    Label36.Visible := False;
+
+  if fsStrikeOut in Label17.Font.Style then
+    Label37.Visible := True
+  else
+    Label37.Visible := False;
+
+  if fsStrikeOut in Label18.Font.Style then
+    Label38.Visible := True
+  else
+    Label38.Visible := False;
+
+  if fsStrikeOut in Label19.Font.Style then
+    Label39.Visible := True
+  else
+    Label39.Visible := False;
+
+  if fsStrikeOut in Label20.Font.Style then
+    Label40.Visible := True
+  else
+    Label40.Visible := False;
+
+  if fsStrikeOut in Label21.Font.Style then
+    Label41.Visible := True
+  else
+    Label41.Visible := False;
+
+  if fsStrikeOut in Label22.Font.Style then
+    Label42.Visible := True
+  else
+    Label42.Visible := False;
+
+  if fsStrikeOut in Label23.Font.Style then
+    Label43.Visible := True
+  else
+    Label43.Visible := False;
+
+  if fsStrikeOut in Label24.Font.Style then
+    Label44.Visible := True
+  else
+    Label44.Visible := False;
+
+  if fsStrikeOut in Label25.Font.Style then
+    Label45.Visible := True
+  else
+    Label45.Visible := False;
+
+  if fsStrikeOut in Label26.Font.Style then
+    Label46.Visible := True
+  else
+    Label46.Visible := False;
+end;
 
 procedure TForm1.AtualizarLabel17Riscada;
 begin
@@ -147,6 +272,7 @@ VerificarMaisvelhaDireitade37;
 Verificacalçado34e35LadoaLado;
 VerificarEntrecalca35eEnfermeira;
 Verificar25AnosEntreCalca35eTenis;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox11Change(Sender: TObject);
@@ -158,6 +284,7 @@ Verificar31anosEsquerdadoAmarelo;
 Verificar23anosAoladoDeBota;
 VerificarJenniferAlgumLugar23anosELigia;
 Verificar25AnosEntreCalca35eTenis;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox12Change(Sender: TObject);
@@ -165,6 +292,7 @@ begin
 VerificarAdvogadaEsquerdaDa28;
 VerificarEntrecalca35eEnfermeira;
 VerificarEnfermeiraEntreSapatilhaEPsiquiatra;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox13Change(Sender: TObject);
@@ -190,6 +318,7 @@ VerificarAzulAlgumaEsquerdaDeSandalia;
     GroupBox3.Color := clWhite
   else
     GroupBox3.Color := clBtnFace;
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox14Change(Sender: TObject);
@@ -198,6 +327,7 @@ VerificarClaudiaTenis;
 VerificarRebecaCalçadoBranco;
 VerificarJeniferAlgumaDireitaDeAzul;
 VerificarJenniferAlgumLugar23anosELigia;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox15Change(Sender: TObject);
@@ -211,6 +341,7 @@ Verificar25AnosEntreCalca35eTenis;
     Label15.Font.Style := Label15.Font.Style + [fsStrikeOut]
   else
     Label15.Font.Style := Label15.Font.Style - [fsStrikeOut];
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox16Change(Sender: TObject);
@@ -220,6 +351,7 @@ VerificarMaisvelhaDireitade37;
 Verificacalçado34e35LadoaLado;
 VerificarEntrecalca35eEnfermeira;
 Verificar25AnosEntreCalca35eTenis;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox17Change(Sender: TObject);
@@ -235,6 +367,7 @@ Verificar25AnosEntreCalca35eTenis;
     Label18.Font.Style := Label18.Font.Style + [fsStrikeOut]
   else
     Label18.Font.Style := Label18.Font.Style - [fsStrikeOut];
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox18Change(Sender: TObject);
@@ -242,6 +375,7 @@ begin
 VerificarAdvogadaEsquerdaDa28;
 VerificarEntrecalca35eEnfermeira;
 VerificarEnfermeiraEntreSapatilhaEPsiquiatra;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox19Change(Sender: TObject);
@@ -275,6 +409,7 @@ VerificarAzulAlgumaEsquerdaDeSandalia;
 
     Label10.Font.Style := Label10.Font.Style - [fsStrikeOut];
   end;
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox1Change(Sender: TObject);
@@ -299,6 +434,7 @@ VerificarAzulAlgumaEsquerdaDeSandalia;
     GroupBox1.Color := clWhite
   else
     GroupBox1.Color := clBtnFace;
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox20Change(Sender: TObject);
@@ -320,6 +456,7 @@ Verificar25AnosEntreCalca35eTenis;
     Label15.Font.Style := Label15.Font.Style + [fsStrikeOut]
   else
     Label15.Font.Style := Label15.Font.Style - [fsStrikeOut];
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox22Change(Sender: TObject);
@@ -328,6 +465,7 @@ Verificar31anosCalca38;
 VerificarMaisvelhaDireitade37;
 Verificacalçado34e35LadoaLado;
 VerificarEntrecalca35eEnfermeira;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox23Change(Sender: TObject);
@@ -338,6 +476,7 @@ VerificarMaisvelhaDireitade37;
 Verificar31anosEsquerdadoAmarelo;
 Verificar23anosAoladoDeBota;
 Verificar25AnosEntreCalca35eTenis;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox24Change(Sender: TObject);
@@ -345,6 +484,7 @@ begin
 VerificarAdvogadaEsquerdaDa28;
 VerificarEntrecalca35eEnfermeira;
 VerificarEnfermeiraEntreSapatilhaEPsiquiatra;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox25Change(Sender: TObject);
@@ -368,6 +508,7 @@ Verificar31anosEsquerdadoAmarelo;
     GroupBox5.Color := clWhite
   else
     GroupBox5.Color := clBtnFace;
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox26Change(Sender: TObject);
@@ -376,6 +517,7 @@ VerificarClaudiaTenis;
 VerificarRebecaCalçadoBranco;
 VerificarJeniferAlgumaDireitaDeAzul;
 VerificarJenniferAlgumLugar23anosELigia;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox27Change(Sender: TObject);
@@ -385,6 +527,7 @@ Verificar23anosAoladoDeBota;
 VerificarAzulAlgumaEsquerdaDeSandalia;
 VerificarClaudiaTenis;
 Verificar25AnosEntreCalca35eTenis;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox28Change(Sender: TObject);
@@ -392,6 +535,7 @@ begin
 Verificar31anosCalca38;
 Verificacalçado34e35LadoaLado;
 VerificarEntrecalca35eEnfermeira;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox29Change(Sender: TObject);
@@ -401,6 +545,7 @@ VerificarAdvogadaEsquerdaDa28;
   Verificar31anosCalca38;
   VerificarMaisvelhaDireitade37;
   Verificar23anosAoladoDeBota;
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox2Change(Sender: TObject);
@@ -411,12 +556,14 @@ VerificarClaudiaTenis;
     Label21.Font.Style := Label21.Font.Style + [fsStrikeOut]
   else
     Label21.Font.Style := Label21.Font.Style - [fsStrikeOut];
+    AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox30Change(Sender: TObject);
 begin
 VerificarEntrecalca35eEnfermeira;
 VerificarEnfermeiraEntreSapatilhaEPsiquiatra;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox3Change(Sender: TObject);
@@ -424,6 +571,7 @@ begin
 VerificarClaudiaTenis;
 Verificar23anosAoladoDeBota;
 VerificarEnfermeiraEntreSapatilhaEPsiquiatra;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox4Change(Sender: TObject);
@@ -433,6 +581,7 @@ VerificarMaisvelhaDireitade37;
 Verificacalçado34e35LadoaLado;
 VerificarEntrecalca35eEnfermeira;
 Verificar25AnosEntreCalca35eTenis;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox5Change(Sender: TObject);
@@ -442,12 +591,14 @@ begin
   Verificar31anosEsquerdadoAmarelo;
   Verificar23anosAoladoDeBota;
   VerificarJenniferAlgumLugar23anosELigia;
+  AtualizarCheck;
 end;
 
 
 procedure TForm1.ComboBox6Change(Sender: TObject);
 begin
    VerificarAdvogadaEsquerdaDa28;
+   AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox7Change(Sender: TObject);
@@ -473,6 +624,7 @@ VerificarAzulAlgumaEsquerdaDeSandalia;
     GroupBox2.Color := clWhite
   else
     GroupBox2.Color := clBtnFace;
+  AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox8Change(Sender: TObject);
@@ -481,6 +633,7 @@ VerificarClaudiaTenis;
 VerificarRebecaCalçadoBranco;
 VerificarJeniferAlgumaDireitaDeAzul;
 VerificarJenniferAlgumLugar23anosELigia;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox9Change(Sender: TObject);
@@ -489,6 +642,31 @@ VerificarClaudiaTenis;
 Verificar23anosAoladoDeBota;
 VerificarAzulAlgumaEsquerdaDeSandalia;
 VerificarEnfermeiraEntreSapatilhaEPsiquiatra;
+AtualizarCheck;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+Label27.Visible := False;
+  Label28.Visible := False;
+  Label29.Visible := False;
+  Label30.Visible := False;
+  Label31.Visible := False;
+  Label32.Visible := False;
+  Label33.Visible := False;
+  Label34.Visible := False;
+  Label35.Visible := False;
+  Label36.Visible := False;
+  Label37.Visible := False;
+  Label38.Visible := False;
+  Label39.Visible := False;
+  Label40.Visible := False;
+  Label41.Visible := False;
+  Label42.Visible := False;
+  Label43.Visible := False;
+  Label44.Visible := False;
+  Label45.Visible := False;
+  Label46.Visible := False;
 end;
 
 procedure TForm1.Verificacalçado34e35LadoaLado;

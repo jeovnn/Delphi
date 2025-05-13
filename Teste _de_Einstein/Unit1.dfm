@@ -11,6 +11,7 @@ object Form1: TForm1
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
   TextHeight = 15
   object Label1: TLabel
     Left = 35
@@ -739,6 +740,266 @@ object Form1: TForm1
       Width = 144
       Height = 15
       Caption = 'Cl'#225'udia escolheu um T'#234'nis.'
+    end
+    object Label27: TLabel
+      Left = 6
+      Top = 8
+      Width = 25
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label28: TLabel
+      Left = 8
+      Top = 46
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label29: TLabel
+      Left = 8
+      Top = 75
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label30: TLabel
+      Left = 8
+      Top = 107
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label31: TLabel
+      Left = 8
+      Top = 139
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label32: TLabel
+      Left = 8
+      Top = 178
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label33: TLabel
+      Left = 8
+      Top = 219
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label34: TLabel
+      Left = 5
+      Top = 256
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label35: TLabel
+      Left = 3
+      Top = 298
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label36: TLabel
+      Left = 5
+      Top = 331
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label37: TLabel
+      Left = 5
+      Top = 362
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label38: TLabel
+      Left = 668
+      Top = 3
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label39: TLabel
+      Left = 668
+      Top = 37
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label40: TLabel
+      Left = 670
+      Top = 73
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label41: TLabel
+      Left = 668
+      Top = 107
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label42: TLabel
+      Left = 668
+      Top = 143
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label43: TLabel
+      Left = 668
+      Top = 196
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label44: TLabel
+      Left = 668
+      Top = 236
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label45: TLabel
+      Left = 670
+      Top = 284
+      Width = 22
+      Height = 21
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label46: TLabel
+      Left = 670
+      Top = 319
+      Width = 22
+      Height = 45
+      Caption = #10004
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
     end
   end
 end
