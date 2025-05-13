@@ -475,8 +475,6 @@ VerificarAzulAlgumaEsquerdaDeSandalia;
     GroupBox2.Color := clBtnFace;
 end;
 
-
-
 procedure TForm1.ComboBox8Change(Sender: TObject);
 begin
 VerificarClaudiaTenis;
