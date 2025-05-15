@@ -253,6 +253,17 @@ begin
     Label46.Visible := True
   else
     Label46.Visible := False;
+
+  if Label27.Visible and Label28.Visible and Label29.Visible and Label30.Visible and
+     Label31.Visible and Label32.Visible and Label33.Visible and Label34.Visible and
+     Label35.Visible and Label36.Visible and Label37.Visible and Label38.Visible and
+     Label39.Visible and Label40.Visible and Label41.Visible and Label42.Visible and
+     Label43.Visible and Label44.Visible and Label45.Visible and Label46.Visible then
+  begin
+    ShowMessage('Parabéns! Você acertou todas as combinações!');
+  end;
+
+
 end;
 
 procedure TForm1.AtualizarLabel17Riscada;
@@ -443,6 +454,7 @@ VerificarClaudiaTenis;
 VerificarRebecaCalçadoBranco;
 VerificarJeniferAlgumaDireitaDeAzul;
 VerificarJenniferAlgumLugar23anosELigia;
+AtualizarCheck;
 end;
 
 procedure TForm1.ComboBox21Change(Sender: TObject);
